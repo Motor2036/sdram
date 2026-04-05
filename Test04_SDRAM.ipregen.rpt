@@ -1,0 +1,155 @@
+IP Upgrade report for Test04_SDRAM
+Sat Oct 07 13:46:23 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; IP Upgrade Summary                                                         ;
++------------------------------+---------------------------------------------+
+; IP Components Upgrade Status ; Passed - Sat Oct 07 13:46:23 2023           ;
+; Quartus Prime Version        ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                ; Test04_SDRAM                                ;
+; Top-level Entity Name        ; Test04_SDRAM                                ;
+; Family                       ; Cyclone 10 LP                               ;
++------------------------------+---------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                                      ;
++----------------+----------------+---------+---------------------------------------------+------------------------+---------------------------------------------+---------+
+; Entity Name    ; Component Name ; Version ; Original Source File                        ; Generation File Path   ; New Source File                             ; Message ;
++----------------+----------------+---------+---------------------------------------------+------------------------+---------------------------------------------+---------+
+; Sdram_WR_FIFO  ; FIFO           ; 17.0    ; source/Sdram_WR_FIFO.qip                    ; source/Sdram_WR_FIFO.v ; source/Sdram_WR_FIFO.qip                    ;         ;
+; Sdram_RD_FIFO  ; FIFO           ; 17.0    ; source/Sdram_RD_FIFO.qip                    ; source/Sdram_RD_FIFO.v ; source/Sdram_RD_FIFO.qip                    ;         ;
+; c10_altclkctrl ; altclkctrl     ; 17.0    ; c10_altclkctrl/synthesis/c10_altclkctrl.qip ; c10_altclkctrl.qsys    ; c10_altclkctrl/synthesis/c10_altclkctrl.qip ;         ;
+; pll            ; ALTPLL         ; 17.0    ; pll.qip                                     ; pll.v                  ; pll.qip                                     ;         ;
++----------------+----------------+---------+---------------------------------------------+------------------------+---------------------------------------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "source/Sdram_WR_FIFO.v" to "source/Sdram_WR_FIFO.BAK.v"
+Info (11837): Started upgrading IP component FIFO with file "source/Sdram_WR_FIFO.v"
+Info (11902): Backing up file "source/Sdram_RD_FIFO.v" to "source/Sdram_RD_FIFO.BAK.v"
+Info (11837): Started upgrading IP component FIFO with file "source/Sdram_RD_FIFO.v"
+Info (11902): Backing up file "c10_altclkctrl.qsys" to "c10_altclkctrl.BAK.qsys"
+Info (11902): Backing up file "c10_altclkctrl/synthesis/c10_altclkctrl.v" to "c10_altclkctrl.BAK.v"
+Info (11837): Started upgrading IP component altclkctrl with file "c10_altclkctrl.qsys"
+Info: 2023.10.07.13:46:11 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info: 2023.10.07.13:46:11 Info: Finished upgrading the ip cores
+Info: 2023.10.07.13:46:16 Info: Saving generation log to E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl
+Info: 2023.10.07.13:46:16 Info: Starting: Create simulation model
+Info: 2023.10.07.13:46:17 Info: qsys-generate E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl\simulation --family="Cyclone 10 LP" --part=10CL006YU256C8G
+Info: 2023.10.07.13:46:17 Info: Loading Test04_SDRAM
+Info: 2023.10.07.13:46:17 Info: Reading input file
+Info: 2023.10.07.13:46:17 Info: Adding altclkctrl_0 [altclkctrl 18.1]
+Info: 2023.10.07.13:46:17 Info: Parameterizing module altclkctrl_0
+Info: 2023.10.07.13:46:17 Info: Building connections
+Info: 2023.10.07.13:46:17 Info: Parameterizing connections
+Info: 2023.10.07.13:46:17 Info: Validating
+Info: 2023.10.07.13:46:17 Info: Done reading input file
+Info: 2023.10.07.13:46:17 Info: c10_altclkctrl.altclkctrl_0: Targeting device family: Cyclone 10 LP.
+Info: 2023.10.07.13:46:17 Info: c10_altclkctrl.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info: 2023.10.07.13:46:17 Info: c10_altclkctrl: Generating c10_altclkctrl "c10_altclkctrl" for SIM_VERILOG
+Info: 2023.10.07.13:46:18 Info: altclkctrl_0: Generating top-level entity c10_altclkctrl_altclkctrl_0.
+Info: 2023.10.07.13:46:18 Info: altclkctrl_0: "c10_altclkctrl" instantiated altclkctrl "altclkctrl_0"
+Info: 2023.10.07.13:46:18 Info: c10_altclkctrl: Done "c10_altclkctrl" with 2 modules, 2 files
+Info: 2023.10.07.13:46:18 Info: qsys-generate succeeded.
+Info: 2023.10.07.13:46:18 Info: Finished: Create simulation model
+Info: 2023.10.07.13:46:18 Info: Starting: Create Modelsim Project.
+Info: 2023.10.07.13:46:18 Info: sim-script-gen --spd=E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl\c10_altclkctrl.spd --output-directory=E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:18 Info: Doing: ip-make-simscript --spd=E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl\c10_altclkctrl.spd --output-directory=E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:19 Info: Generating the following file(s) for MODELSIM simulator in E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:19 Info:     mentor
+Info: 2023.10.07.13:46:19 Info: Generating the following file(s) for VCS simulator in E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:19 Info:     synopsys/vcs
+Info: 2023.10.07.13:46:19 Info: Generating the following file(s) for VCSMX simulator in E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:19 Info:     synopsys/vcsmx
+Info: 2023.10.07.13:46:19 Info:     synopsys/vcsmx
+Info: 2023.10.07.13:46:19 Info: Generating the following file(s) for NCSIM simulator in E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:19 Info:     cadence
+Info: 2023.10.07.13:46:19 Info:     cadence
+Info: 2023.10.07.13:46:19 Info:     cadence
+Info: 2023.10.07.13:46:19 Info:     1 .cds.lib files in cadence/cds_libs
+Info: 2023.10.07.13:46:19 Info: Generating the following file(s) for RIVIERA simulator in E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:19 Info:     aldec
+Info: 2023.10.07.13:46:19 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/Altera/Cyclone_10/SW_10CL025/Test04_SDRAM/c10_altclkctrl/simulation
+Info: 2023.10.07.13:46:19 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: 2023.10.07.13:46:19 Info: Finished: Create Modelsim Project.
+Info: 2023.10.07.13:46:19 Info: Starting: Create block symbol file (.bsf)
+Info: 2023.10.07.13:46:19 Info: qsys-generate E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl.qsys --block-symbol-file --output-directory=E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl --family="Cyclone 10 LP" --part=10CL006YU256C8G
+Info: 2023.10.07.13:46:19 Info: Loading Test04_SDRAM
+Info: 2023.10.07.13:46:19 Info: Reading input file
+Info: 2023.10.07.13:46:19 Info: Adding altclkctrl_0 [altclkctrl 18.1]
+Info: 2023.10.07.13:46:19 Info: Parameterizing module altclkctrl_0
+Info: 2023.10.07.13:46:19 Info: Building connections
+Info: 2023.10.07.13:46:19 Info: Parameterizing connections
+Info: 2023.10.07.13:46:19 Info: Validating
+Info: 2023.10.07.13:46:19 Info: Done reading input file
+Info: 2023.10.07.13:46:20 Info: c10_altclkctrl.altclkctrl_0: Targeting device family: Cyclone 10 LP.
+Info: 2023.10.07.13:46:20 Info: c10_altclkctrl.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info: 2023.10.07.13:46:20 Info: qsys-generate succeeded.
+Info: 2023.10.07.13:46:20 Info: Finished: Create block symbol file (.bsf)
+Info: 2023.10.07.13:46:20 Info:
+Info: 2023.10.07.13:46:20 Info: Starting: Create HDL design files for synthesis
+Info: 2023.10.07.13:46:20 Info: qsys-generate E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl.qsys --synthesis=VERILOG --output-directory=E:\Altera\Cyclone_10\SW_10CL025\Test04_SDRAM\c10_altclkctrl\synthesis --family="Cyclone 10 LP" --part=10CL006YU256C8G
+Info: 2023.10.07.13:46:20 Info: Loading Test04_SDRAM
+Info: 2023.10.07.13:46:20 Info: Reading input file
+Info: 2023.10.07.13:46:20 Info: Adding altclkctrl_0 [altclkctrl 18.1]
+Info: 2023.10.07.13:46:20 Info: Parameterizing module altclkctrl_0
+Info: 2023.10.07.13:46:20 Info: Building connections
+Info: 2023.10.07.13:46:20 Info: Parameterizing connections
+Info: 2023.10.07.13:46:20 Info: Validating
+Info: 2023.10.07.13:46:20 Info: Done reading input file
+Info: 2023.10.07.13:46:20 Info: c10_altclkctrl.altclkctrl_0: Targeting device family: Cyclone 10 LP.
+Info: 2023.10.07.13:46:20 Info: c10_altclkctrl.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info: 2023.10.07.13:46:21 Info: c10_altclkctrl: Generating c10_altclkctrl "c10_altclkctrl" for QUARTUS_SYNTH
+Info: 2023.10.07.13:46:21 Info: altclkctrl_0: Generating top-level entity c10_altclkctrl_altclkctrl_0.
+Info: 2023.10.07.13:46:21 Info: altclkctrl_0: "c10_altclkctrl" instantiated altclkctrl "altclkctrl_0"
+Info: 2023.10.07.13:46:21 Info: c10_altclkctrl: Done "c10_altclkctrl" with 2 modules, 2 files
+Info: 2023.10.07.13:46:21 Info: qsys-generate succeeded.
+Info: 2023.10.07.13:46:21 Info: Finished: Create HDL design files for synthesis
+Info (11902): Backing up file "pll.v" to "pll.BAK.v"
+Info (11837): Started upgrading IP component ALTPLL with file "pll.v"
+Info (11131): Completed upgrading IP component FIFO with file "source/Sdram_WR_FIFO.v"
+Info (11131): Completed upgrading IP component FIFO with file "source/Sdram_RD_FIFO.v"
+Info (11131): Completed upgrading IP component altclkctrl with file "c10_altclkctrl.qsys"
+Info (11131): Completed upgrading IP component ALTPLL with file "pll.v"
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4908 megabytes
+    Info: Processing ended: Sat Oct 07 13:46:23 2023
+    Info: Elapsed time: 00:00:31
+    Info: Total CPU time (on all processors): 00:00:58
+
+
